@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+
+<!--<form>-->
+
+<!--    <input type="text" id="fName" name="fName"><br><br>-->
+<!--    <input type="button" value="Save">-->
+<!--    <input type="checkbox" checked><br><br>-->
+<!--    <input type="color"><br><br>-->
+<!--    <input type="date" min="2023-01-01" max="2023-02-28"><br><br>-->
+<!--    <input type="datetime-local" min="2023-01-01T00:00"><br><br>-->
+<!--    <input type="password" ><br><br>-->
+<!--    <input type="email"><br><br>-->
+<!--    <input type="image" src="Assests/image/Screenshot%20(26).png" width="200"><br><br>-->
+<!--    <input type="file" accept="image/jpg"><br><br>-->
+<!--    <input type="month" min="2023-02" max="2023-05"><br><br>-->
+<!--    <input type="number" min="10" max="15"><br><br>-->
+<!--    <input type="radio" checked><br><br>-->
+<!--    <input type="range" ><br><br>-->
+<!--    <input type="search" ><br><br>-->
+<!--    <input type="submit" value="send"><br><br>-->
+<!--    <input type="tel" ><br><br>-->
+<!--    <input type="week" ><br><br>-->
+<!--    <input type="url" ><br><br>-->
+<!--    -->
+<!--</form>-->
+
+<form>
+    <div>
+        <label for="fname">First name</label>
+        <input type="text" name="fname" id="fname" placeholder="first name">
+    </div>
+<br>
+    <div>
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname" placeholder="last name">
+    </div>
+<br>
+    <div>
+        <label for="nic">NIC Number</label>
+        <input type="text" name="nic" id="nic" placeholder="NIC number">
+    </div>
+<br>
+    <div>
+        <label for="tel">Tele-Phone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Telephone">
+    </div>
+<br>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+    </div>
+<br>
+    <div>
+        <label for="regDate">Register Date</label>
+        <input type="date" name="regDate" id="regDate">
+    </div>
+<br>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="*****">
+    </div>
+<br>
+    <div>
+        <label for="favColor">Favorite color</label>
+        <input type="color" name="favColor" id="favColor">
+    </div>
+
+<!--<div>divition - set ekak ekak widiyta ganna block line</div>-->
+<!--    <span>inline</span>-->
+
+
+
+<div>A</div><div>B</div>
+
+<hr>
+
+<select name="countries" id="countries">
+    <option value="">UK</option>
+    <option value="">USA</option>
+    <option value="">Japan</option>
+</select>
+<br><br>
+<textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Enter your message"
+>
+</textarea>
+
+<hr>
+
+<button type="reset">Reset</button>
+<button type="submit">submit</button>
+<button type="button">Save</button>
+
+
+    <fieldset>
+
+        <legend>Output Format</legend>
+
+        <div>
+            <label for="a">A</label>
+            <input type="radio" name="a" id="a">
+        </div>
+
+        <div>
+            <label for="b">B</label>
+            <input type="radio" name="b" id="b">
+        </div>
+
+        <div>
+            <label for="c">C</label>
+            <input type="radio" name="c" id="c">
+        </div>
+
+
+    </fieldset>
+
+
+</form>
+</body>
+</html>

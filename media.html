@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--Adding img-->
+
+<!--    <h3>Multimedia & Embedding</h3>-->
+
+<!--    <img-->
+<!--            src="Assests/image/Screenshot (26).png"-->
+<!--            width="500" height="300"-->
+<!--            title="screenshot"-->
+<!--            alt="screenshot.jpg"-->
+<!--    >-->
+<!--    <figure>-->
+<!--        <img-->
+<!--                src="Assests/image/Screenshot (26).png"-->
+<!--                width="500" height="300"-->
+<!--                title="screenshot"-->
+<!--                alt="screenshot.jpg"-->
+<!--        >-->
+<!--        <figcaption>-->
+<!--            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur cum, debitis distinctio dolores ipsum iusto magnam magni maiores modi necessitatibus perspiciatis praesentium quidem, repellendus sunt, suscipit tenetur ullam ut.-->
+<!--        </figcaption>-->
+<!--    </figure>-->
+
+<!--    <picture>-->
+<!--        <source media="(max-width:799px)" srcset="Assests/image/mother-with-daughter-having-fun-park-rainy-weather.jpg">-->
+<!--        <img src="Assests/image/cute-little-girl-jumping-into-puddle-rainy-weather.jpg" alt="family photo">-->
+<!--    </picture>-->
+
+
+<!--Adding video-->
+<!--    <video src="Assests/video/Pexels%20Videos%201321208.mp4" controls ></video>-->
+
+    <video
+            controls
+            autoplay
+            muted
+            loop
+            preload="none"
+            poster="Assests/image/Screenshot%20(26).png"
+    >
+
+<!--        preload = kalin load kraganne ne. ethenta awoth withrai load kraganne-->
+
+        <source src="Assests/video/Pexels%20Videos%201321208.mp4" type="video/mp4"/>
+<!--       <source src="Assests/video/Pexels%20Videos%201321208.webm" type="video/webm"/>&ndash;&gt; wenas video type thyena welwta use krnwa-->
+    </video>
+
+    <video controls>
+        <source src="Assests/video/Pexels%20Videos%201321208.mp4" type="video/mp4">
+        <track default kind="subtitles" src="sub/sample.vtt" srclang="en" label="english">
+    </video>
+
+<!--Adding audio-->
+    <audio controls>
+        <source src="Assests/audio/pirates_bgm.mp3" type="audio/mp3">
+    </audio>
+
+
+    <iframe
+            src="https://piratelk.com/"
+            width="800px"
+            height="500px"
+            allowfullscreen
+            frameborder="0"
+    >
+
+    </iframe>
+
+    <iframe src="https://youtube.com/embed/3z0rrh6WOQM" frameborder="0"></iframe>
+
+    <object data="Assests/docs/Assignment%2001.pdf" width="1000" height="500" type="">
+        <p>
+            We can't load this pdf. Please visit <a href="Assests/docs/Assignment%2001.pdf">pdf</a>
+        </p>
+    </object>
+
+</body>
+</html>
