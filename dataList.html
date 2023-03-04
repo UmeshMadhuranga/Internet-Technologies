@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data List</title>
+</head>
+<body>
+
+        <!--DATA LIST-->
+        <form>
+            <lable for="Programming">Details</lable>
+            <br>
+            <input list="Programming">
+            <datalist id="Programming">
+                <option value="java"></option>
+                <option value="python"></option>
+                <option value="javaScript"></option>
+                <option value="C++"></option>
+                <option value="C#"></option>
+            </datalist>
+        </form>
+
+        <!--OUTPUT-->
+        <hr>
+        <hr>
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="text" id="a" value="0">
+            <input type="text" id="b" value="0">
+            <output name="result" for="a b">0</output>
+        </form>
+
+        <!-- <OPTGROUPS> -->
+        <hr>
+        <hr>
+        <select name="tech" id="tech">
+            <optgroup label="programming languages">
+                <option value="java">java</option>
+                <option value="python">python</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+            </optgroup>
+            <optgroup label="frameWorks">
+                <option value="reactjs">reactjs</option>
+                <option value="angular">angular</option>
+            </optgroup>
+        </select>
+
+        <hr>
+        <hr>
+        <!--TABLES-->
+        <table border="5">
+            <thead>
+                <th>#Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>E-mail</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Umesh</td>
+                    <td>23</td>
+                    <td>umeshmadhu2000@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td>Ravishan</td>
+                    <td>23</td>
+                    <td>pubuduravishan63@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <hr>
+
+        <table border="5">
+            <thead>
+                <th>Name</th>
+                <th id="java module">Java Module</th>
+                <th id="it">Internet Technologies</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="Student1">Kavindu</th>
+                    <td headers="java student 1">90</td>
+                    <td headers="it student 1">100</td>
+                </tr>
+
+                <tr>
+                    <th id="Student2">Umesh</th>
+                    <td headers="java student 2">75</td>
+                    <td headers="it student 2">100</td>
+                </tr>
+
+                <tr>
+                    <th id="Student3">Kasun</th>
+                    <td headers="java student 3">65</td>
+                    <td headers="it student 3">34</td>
+                </tr>
+
+                <tr>
+                    <th id="Student4">Kavindu</th>
+                    <td headers="java student 4">65</td>
+                    <td headers="it student 4">45</td>
+                </tr>
+
+                <tr>
+                    <th id="Student5">Pulasthi</th>
+                    <td headers="java student 5">41</td>
+                    <td headers="it student 5">78</td>
+                </tr>
+
+                <tr>
+                    <th id="Student6">Shashika</th>
+                    <td headers="java student 6">94</td>
+                    <td headers="it student 6">85</td>
+                </tr>
+
+                <tr>
+                    <th id="Student7">Nerangana</th>
+                    <td headers="java student 7">96</td>
+                    <td headers="it student 7">56</td>
+                </tr>
+
+                <tr>
+                    <th id="Student8">Chameesha</th>
+                    <td headers="java student 8">71</td>
+                    <td headers="it student 8">63</td>
+                </tr>
+
+                <tr>
+                    <th id="Student9">Methpura</th>
+                    <td headers="java student 9">54</td>
+                    <td headers="it student 9">100</td>
+                </tr>
+
+                <tr>
+                    <th id="Student10">Saranga</th>
+                    <td headers="java student 10">54</td>
+                    <td headers="it student 10">85</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <hr>
+
+        <table border="5">
+            <thead>
+                <th>Student</th>
+                <th>Student name</th>
+                <th colspan="2">Student contact</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Tharindu</td>
+                    <td>0114587968</td>
+                    <td>0745341895</td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td>Kasun</td>
+                    <td colspan="2">0114679581</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <hr>
+
+        <table border="5">
+            <tbody>
+                <tr>
+                    <th>Customer</th>
+                    <td>Kasun</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="4">E-mail</th>
+                    <td>kasun@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>kasun@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>kasun@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>kasun@github.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <hr>
+
+        <table border="5">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th colspan="2">E-mail</th>
+                <th>Parent's name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Kavindu</td>
+                    <td>Kavindu@gmail.com</td>
+                    <td>Kavindu@yahoo.com</td>
+                    <td>Mr.Rathnayake</td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td>Pubudu</td>
+                    <td>Pubudu@gmail.com</td>
+                    <td>Pubudu@yahoo.com</td>
+                    <td>Mr.Muhandiram</td>
+                </tr>
+
+                <tr>
+                    <td>03</td>
+                    <td>Kavinda</td>
+                    <td colspan="2">kavinda@gmail.com</td>
+                    <td rowspan="2">Mr.Wickramasinghe</td>
+                </tr>
+
+                <tr>
+                    <td>04</td>
+                    <td>Shiron</td>
+                    <td>shiron@gmail.com</td>
+                    <td>shiron@yahoo.com</td>
+                </tr>
+
+                <tr>
+                    <td>05</td>
+                    <td>Umesh</td>
+                    <td>Umesh@gmail.com</td>
+                    <td>Umesh@yahoo.com</td>
+                    <td>Mr.Wickramasinghe</td>
+                </tr>
+
+                <tr>
+                    <td>06</td>
+                    <td>Saroja</td>
+                    <td colspan="2" rowspan="2" align="center">saroja@gmail.com</td>
+                    <td rowspan="2">Mr.Kamalasiri</td>
+                </tr>
+
+                <tr>
+                    <td>07</td>
+                    <td>Sarojani</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
